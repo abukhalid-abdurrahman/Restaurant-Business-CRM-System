@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-business-crm-system",
+  "version": "1.0.0",
+  "description": "CRM-System using JS and other frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faha-berdiev/Restaurant-Business-CRM-System.git"
+  },
+  "keywords": [
+    "CRM",
+    "JS",
+    "Node"
+  ],
+  "author": "Faridun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faha-berdiev/Restaurant-Business-CRM-System/issues"
+  },
+  "homepage": "https://github.com/faha-berdiev/Restaurant-Business-CRM-System#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
