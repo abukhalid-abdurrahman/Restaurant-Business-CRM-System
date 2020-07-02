@@ -19,7 +19,7 @@ const positionRouts = require('./routes/position');
 
 app.use(morgan('dev'));
 app.use(cors());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/api/auth', authRouts);
