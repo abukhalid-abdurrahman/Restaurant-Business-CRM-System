@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const passport = require('passport');
 const cors = require('cors');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
@@ -16,6 +17,9 @@ const analyticsRouts = require('./routes/analytics');
 const categoryRouts = require('./routes/category');
 const orderRouts = require('./routes/order');
 const positionRouts = require('./routes/position');
+
+app.use(passport.initialize());
+require('./middleware/passport')(passport);
 
 app.use(morgan('dev'));
 app.use(cors());
